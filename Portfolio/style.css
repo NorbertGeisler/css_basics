@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 1px dotted red; */
+    box-sizing: border-box;
+}
+body{
+    background-color: #0E0E0E;
+}
+.wrap{
+    width: 970px;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #F7F7F7;
+}
+.main-wrap{
+    padding: 25px;
+    /* background-image: radial-gradient(#6f5a63,#1c0d10); */
+    background: radial-gradient(ellipse at center, rgba(107,81,92,1) 44%,rgba(25,9,13,1) 100%);
+}
+.top-section{
+    display: flex;
+    justify-content: space-between;
+}
+.portfolio-pic{
+    width: 400px;
+    border: 4px solid #BEBEBE;
+    margin-right: 25px;
+}
+.about{
+    background: linear-gradient(to right, rgba(255,255,255,1) 17%,rgba(218,203,217,1) 100%);
+}
+.about h4{
+    padding: 10px;
+    color: #FFFFFF;
+    background-image: linear-gradient(#b2b1b5, #878793,#b2b1b5);
+}
+.about p{
+    margin: 10px;
+}
+.about a{
+    color: #1C2B35;
+}
+.bottom-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.bottom-content{
+    width: 31.5%;
+    background: linear-gradient(to right, rgba(255,255,255,1) 17%,rgba(218,203,217,1) 100%);
+}
+.bottom-content h4,h5{
+    padding: 10px;
+    color: #FFFFFF;
+    background-image: linear-gradient(#b2b1b5, #878793,#b2b1b5);
+}
+.bottom-content img{
+    max-width: 100%;
+}
+.bottom-content p{
+    margin: 10px;
+}
+.icon-table{
+    padding-right: 15px;
+}
+.icon-table td{
+    padding: 15px 0px 0px 15px;
+}
+.bottom-content-description{
+    height: 350px;
+}
+.bottom-content-button{
+    text-align: center;
+    padding: 10px 0px 20px 0px;
+}
+.bottom-content-button a{
+    background-color: #407D61;
+    color: white;
+    padding: 5px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+footer{
+    background-color: white;
+    text-align: center;
+}
+footer p{
+    padding: 10px;
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+}
+.social-media img{
+    width: 20px;
+    
+}
+.social-media a{
+    padding: 0px 5px 0px 5px;
+    color: #1C2B35;
+}

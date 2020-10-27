@@ -1,0 +1,67 @@
+a{
+    color: rgb(86, 231, 226);
+}
+a, p{
+    font-size: 10pt;
+}
+#mainContainer{
+    width: 970px;
+    background-color: rgb(38, 52, 114);
+    display: inline-block;
+}
+#titleBanner{
+    background-color: rgb(236, 48, 48);
+    border-radius: 10px;
+    margin: 10px;
+}
+#titleText{
+    margin: 20px ;
+    padding: 15px 0px;
+    color: oldlace;
+
+}
+#menuHome p {
+    padding: 0px 10px 0px 30px;
+    border: 0em;
+    margin: 0em;
+}
+#menu{
+    background-color: rgb(50, 132, 146);
+    color: oldlace;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 10px;
+    margin: 10px;
+    width: 21%;
+}
+#menu ul{
+    padding: 0px 10px 0px 35px;
+}
+#article{
+    background-color: rgb(8, 12, 32);
+    display: inline-block;
+    border-radius: 10px;
+    margin: 10px;
+    width: 74%;
+}
+#article h2, p{
+    color: seashell;
+    padding: 0px 10px 0px 10px;
+}
+#article ul{
+    color: seashell;
+}
+#article mark{
+    background-color: rgb(8, 12, 32);
+    color: rgb(80, 101, 199);
+}
+#bottom{
+    background-color: rgb(117, 117, 117);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 1px 0px 1px 0px;
+}
+#bottom p{
+    color: seashell;
+    padding-left: 20px;
+}
